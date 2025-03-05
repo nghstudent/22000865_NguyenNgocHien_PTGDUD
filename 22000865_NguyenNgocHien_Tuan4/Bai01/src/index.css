@@ -1,0 +1,10 @@
+#root {
+    overflow: hidden;
+}
+div{
+    display: inline-block;
+}
+.limenu{
+    display: inline;
+    margin: 80px;
+}
