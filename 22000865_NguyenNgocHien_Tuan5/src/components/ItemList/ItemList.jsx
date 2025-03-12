@@ -6,7 +6,8 @@ export default function ItemList() {
   const [itemList, setItemList] = useState([]);
 
   useEffect(() => {
-    var fn = fetch("https://67c81a760acf98d07084da00.mockapi.io/chefify");
+    var fn = fetch("https://67c81d690acf98d07084ec3d.mockapi.io/Demo");
+    
     var fn1 = fn.then((res) => res.json());
     var fn2 = fn1.then((data) => {
       setItemList(data);

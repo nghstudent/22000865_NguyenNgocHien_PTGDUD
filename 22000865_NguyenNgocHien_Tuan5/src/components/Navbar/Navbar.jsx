@@ -9,15 +9,6 @@ export default function Navbar() {
     "About us",
   ];
 
-  // const [array, setArray] = useState([]);
-
-  // useEffect(() => {
-  //   var fn = fetch("https://67c79445c19eb8753e7a176f.mockapi.io/menus");
-  //   var fn1 = fn.then((res) => res.json());
-  //   var fn2 = fn1.then((data) => {
-  //     setArray(data);
-  //   });
-  // }, []);
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-white shadow-sm">

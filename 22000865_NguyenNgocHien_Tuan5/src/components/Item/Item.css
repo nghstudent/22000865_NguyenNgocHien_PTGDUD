@@ -1,56 +1,25 @@
-/* item style */
+ @import "tailwindcss";
 
 .item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: 310px;
-  background-color: #fff;
-  font-weight: bold;
-  cursor: pointer;
+  @apply flex flex-col items-center justify-center w-[200px] h-[400px] bg-white font-bold cursor-pointer;
 }
 
 .item-img {
-  border-radius: 5px;
+  @apply rounded-md;
 }
 
 .item-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 0 5px;
+  @apply flex justify-between items-center w-full px-[5px];
 }
 
 .item-text {
-  color: #000;
-  font-size: 20px;
-  text-align: left;
+  @apply text-black text-[20px] text-left;
 }
 
 .item-save-btn {
-  border-color: #d63384;
-  color: #d63384;
-  border-radius: 50%;
-  font-size: 14px;
-}
-
-.item-save-btn:hover {
-  background-color: #d63384;
-  color: white;
-  border-color: #cccccc;
+  @apply border border-pink-600 text-pink-600 rounded-full text-[14px] hover:bg-pink-600 hover:text-white hover:border-gray-300;
 }
 
 .item-time {
-  border-radius: 10px;
-  background-color: #fde8eb;
-  color: #d63384;
-  font-size: 12px;
-  font-weight: 300;
-  padding: 0px 10px;
-  margin-right: auto;
-  margin-left: 8px;
-  margin-top: 5px;
+  @apply rounded-[10px] bg-pink-100 text-pink-600 text-[12px] font-light px-[10px] ml-[8px] mt-[5px] mr-auto;
 }
